@@ -18,7 +18,7 @@ public class ex005 {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Controle dos Índices de poluição");
-		System.out.println("==============");
+		System.out.println("==========================");
 
 		System.out.println("Digite o índice de poluição: ");
 		double poluicao = entrada.nextDouble();
