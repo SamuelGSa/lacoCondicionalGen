@@ -13,9 +13,10 @@ public class ex001 {
 	//que João deverá pagar. Caso contrário mostrar tais variáveis com o conteúdo ZERO.
 	
 	public static void main(String[] args) {
-		System.out.println("=====================================");
+		
 		System.out.println("Calculadora de Imposto sobre Tomates");
 		System.out.println("======================================");
+		
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Qual é o rendimento diário de tomates? (Em quilos): ");
@@ -28,10 +29,8 @@ public class ex001 {
 			double multa = excesso * 4.00;
 		
 			System.out.println("Você excedeu o limite diário de 50kg, passando " + excesso + " kg. Você pagará: R$ " + multa);
-		} else{
-			System.out.println("Você não excedeu o limite diário de 50kg e não pagará multas. ");
+		} else System.out.println("Você não excedeu o limite diário de 50kg e não pagará multas. ");
 
-		}
 		
 		
 	}
