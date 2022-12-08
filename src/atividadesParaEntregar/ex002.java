@@ -20,7 +20,7 @@ public class ex002 {
 		System.out.println("======================");
 		
 		System.out.print("Código do operário: ");
-		float codigo = entrada.nextInt();
+		float codigo = entrada.nextFloat();
 		
 		System.out.print("Quantidade de horas trabalhadas: ");
 		int nHorasTrabalhadas = entrada.nextInt();
