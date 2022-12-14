@@ -1,4 +1,4 @@
-package atividadesParaEntregar;
+package lacoCondicional;
 
 import java.util.Scanner;
 
